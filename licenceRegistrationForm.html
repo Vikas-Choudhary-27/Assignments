@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licence Registration Form</title>
+</head>
+<body>
+    <center>
+    <table border="1">
+        <tr>
+            <td>
+    <header>
+    <h1>Licence Registration Form</h1>
+    </header>
+            </td>
+        </tr>
+        <tr><td>
+    <center>
+        <form action="index.html" method="get">
+    <table>
+        <tr><td colspan="2"><h5>all (*) marked fields are mandatory</h5></td></tr>
+      <tr>
+        <td><label for="nm">Name* : </label></td>
+        <td><input type="text" id="nm" placeholder="enter your name" name="name" required></td>
+      </tr>
+      
+      <tr>
+        <td><label for="em">Email* : </label></td>
+        <td><input type="email" id="nm" placeholder="ex.abc@gmail.com" name="email" required></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><label for="db">Date of Birth* : </label></td>
+        <td><input type="date" id="db" name="dob" required></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><label for="lln">Learning Licence No.* : </label></td>
+        <td><input type="number" id="lln" name="lln" required></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><label for="mb">Mobile No.* : </label></td>
+        <td><input type="number" id="mb" name="mb" minlength="10" maxlength="10" required></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><label for="g">Gender* : </label></td>
+        <td>
+            <label for="m">Male</label>
+            <input type="radio" id="m" name="g" >&nbsp;&nbsp;&nbsp;
+            <label for="fm">FeMale</label>
+            <input type="radio" id="fm" name="g" ></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><label for="vt">Vehicle Type* : </td></label>
+        <td><select id="vt" required>
+            <option>----------select option----------</option>
+                <option value="2">2 Wheeler</option>
+                <optgroup label="4 Wheeler">
+                <option value="4">Light Motor Vehicle</option>
+                <option value="4">Heavy Motor Vehicle</option>
+            </optgroup>
+                <option value="t">Tractor</option>
+        </select>
+        
+      </tr>
+      <tr>
+        <td><label for="v">Select Vehicle : </td></label>
+        <td><select id="v" >
+            <option>----------select option----------</option>
+            <optgroup label="2 Wheeler">
+                <option value="hn">Honda</option>
+                <option value="kt">KTM</option>
+                <option value="re">Royal Enfield</option>
+            </optgroup>
+            <optgroup label="4 Wheeler">
+                <option value="bm">BMW</option>
+                <option value="f">Ford</option>
+                <option value="h">Honda</option>
+            </optgroup>
+            <optgroup label="Tractor">
+                <option value="m">Mahindra</option>
+                <option value="so">Sonalika
+                </option>
+                <option value="sw">Swaraj</option>
+            </optgroup>
+            
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><br>
+            <button style="background-color:#04AA6D;" type="submit">Submit</button></td>
+        <td style="text-align: center;"><br>
+            <button style="background-color: #008CBA;" type="reset">Reset</button></td>
+      </tr>
+    </table>
+</form>
+    <br>
+</center>
+     </td>
+       </tr>
+    </table>
+    </center>
+</body>
+</html>
