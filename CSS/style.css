@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.btn1{
+    background-color: red;
+    color: white;
+}
+.btn2{
+    background-color: green;
+    color: white;
+}
+#btn{
+    background-color: blue;
+    color: white;
+}
+div{
+    border: 1cap;
+    border-color: white;
+}

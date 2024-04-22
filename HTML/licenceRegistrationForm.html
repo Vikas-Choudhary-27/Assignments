@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licence Registration Form</title>
+</head>
+
+<body>
+  <center>
+    <table border="1">
+      <tr>
+        <td>
+          <header>
+            <h1 style="text-align: center;">Licence Registration Form</h1>
+          </header>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <center>
+            <form action="index.html" method="get">
+              <table>
+                <tr>
+                  <td colspan="2">
+                    <h5>all (*) marked fields are mandatory</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="nm">Name* : </label></td>
+                  <td><input type="text" id="nm" placeholder="Enter your name" name="name" required></td>
+                </tr>
+
+                <tr>
+                  <td><br><label for="em">Email* : </label></td>
+                  <td><br><input type="email" id="nm" placeholder="eg.abc@gmail.com" name="email" required></td>
+                </tr>
+                <tr>
+                  <td><br><label for="db">Date of Birth* : </label></td>
+                  <td><br><input type="date" id="db" name="dob" required></td>
+                </tr>
+                <tr>
+                  <td><br><label for="lln">Learning Licence No.* : </label></td>
+                  <td><br><input type="number" id="lln" name="lln" placeholder="eg.X123CF45" required></td>
+                </tr>
+                <tr>
+                  <td><br><label for="mb">Mobile No.* : </label></td>
+                  <td><br><input type="number" id="mb" name="mb" minlength="10" maxlength="10"
+                      placeholder="eg.1234567890"></td>
+                </tr>
+                <tr>
+                  <td><br><label for="g">Gender* : </label></td>
+                  <td><br>
+                    <label for="m">Male</label>
+                    <input type="radio" id="m" name="g">&nbsp;&nbsp;&nbsp;
+                    <label for="fm">FeMale</label>
+                    <input type="radio" id="fm" name="g">
+                  </td>
+                </tr>
+                <tr>
+                  <td><br><label for="vt">Vehicle Type* : </td></label>
+                  <td><br><select id="vt" required>
+                      <option>----------select option----------</option>
+                      <option value="2">2 Wheeler</option>
+                      <optgroup label="4 Wheeler">
+                        <option value="4">Light Motor Vehicle</option>
+                        <option value="4">Heavy Motor Vehicle</option>
+                      </optgroup>
+                      <option value="t">Tractor</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><br><label for="v">Select Vehicle : </td></label>
+                  <td><br><select id="v">
+                      <option>----------select option----------</option>
+                      <optgroup label="2 Wheeler">
+                        <option value="hn">Honda</option>
+                        <option value="kt">KTM</option>
+                        <option value="re">Royal Enfield</option>
+                      </optgroup>
+                      <optgroup label="4 Wheeler">
+                        <option value="bm">BMW</option>
+                        <option value="f">Ford</option>
+                        <option value="h">Honda</option>
+                      </optgroup>
+                      <optgroup label="Tractor">
+                        <option value="m">Mahindra</option>
+                        <option value="so">Sonalika
+                        </option>
+                        <option value="sw">Swaraj</option>
+                      </optgroup>
+
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;"><br>
+                    <button style="background-color:#04AA6D;" type="submit">Submit</button>
+                  </td>
+                  <td style="text-align: center;"><br>
+                    <button style="background-color: #008CBA;" type="reset">Reset</button>
+                  </td>
+                </tr>
+                <tr></tr>
+              </table>
+            </form>
+            <br>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+
+</html>

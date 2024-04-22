@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+    border: 16px;
+}
+fieldset{
+    background-color: rgb(20, 185, 214,0.1);
+    color:black;
+}
+#paragraph{
+    background-color:rgba(105, 184, 184, 0.1);
+}
+.trc{
+    background-color:rgba(105, 184, 184, 0.1);
+}
+.social{
+    padding-left: 130px;
+}
