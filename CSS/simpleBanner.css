@@ -1,6 +1,5 @@
 body {
   background-color: rgb(32, 178, 214, 0.2);
-  justify-content: center;
 }
 
 .main {
@@ -10,8 +9,9 @@ body {
   border-style: solid;
   border-color: black;
   background-color: white;
-  margin-left: 12em;
-  margin-top: 0.5em;
+  /* margin-left: 12em;
+   margin-top: 0.5em; */
+   margin: auto;
 }
 
 nav {
