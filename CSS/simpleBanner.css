@@ -1,5 +1,6 @@
 body {
   background-color: rgb(32, 178, 214, 0.2);
+  justify-content: center;
 }
 
 .main {
