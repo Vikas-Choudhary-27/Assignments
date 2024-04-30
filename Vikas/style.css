@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    height: 80px;
+    width: 100px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.image{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 60px;
+    /* border: 1px solid;
+    border-color: rgb(252, 227, 7) ;
+    border-radius: 15px; */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 300%;
+    height: 400px;
+    justify-content: center;
+}
+nav{
+     display: flex;
+     padding: 1px;
+     justify-content:space-between;
+     align-items: center;
+     border: 1px solid white;
+}
+.nav-items{
+     display: flex;
+     gap: 1rem;
+     margin-right: 50px;
+     font-style: bold;
+}
+h1,p{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+nav a{
+     padding: 5px;
+     text-decoration: none;
+     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+#name{
+    color: white;
+    display: flex;
+    font-size: 25px;
+}
+nav a:hover{
+    color:rgb(252, 227, 7) ;
+    text-decoration: underline 1.5px;
+    
+}
+button{
+    background-color: transparent;
+    padding: 15px;
+    gap: 2em;
+    border: 1px solid;
+    border-radius: 30px ;
+    border-color: white;
+}
