@@ -16,14 +16,12 @@ body{
 }
 .container{
     display: flex;
-    height: 100%;
-    width: 100%;
     justify-content: space-around;
+    gap:50px;
 }
 .image{
     display: flex;
     margin-top: 20px;
-    margin-right: 60px;
     /* border: 1px solid;
     border-color: rgb(252, 227, 7) ;
     border-radius: 15px; */
@@ -78,4 +76,24 @@ button{
     border: 1px solid;
     border-radius: 30px ;
     border-color: white;
+}
+.pinfo p{
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.info .pimage{
+    display: flex;
+    height: 30%;
+    width: 40%;
+    border-radius: 180px;
+    align-items: center;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    display: flex;
 }
