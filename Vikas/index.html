@@ -1,157 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" class="css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-    <div class="nav-bar">
-    <header>
-        <nav id="nav_bar">
-            <div><h1>Vikas</h1></div>
-            <div class="nav-items">
-                <a href="#home_section">Home</a>
-                <a href="#about_section">About</a>
-                <a href="#project_section">Projects</a>
-                <a href="#contact_section">Contact</a>
-                <a class="resumeB" href="resume.html">Resume</a>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-    <section>
-        <div class="main" id="home_section">
-            <h2 style="color: rgb(252, 227, 7);">Hello!</h2>
-            <div id="name">
-                <h1>I'm &nbsp;&nbsp;</h1>
-                <h1 style="color: rgb(252, 227, 7);">Vikas Choudhary</h1>
-            </div>
-            <p>Software Developer</p>
-            <div>
-            <button style="background-color: rgb(252, 227, 7) ;">Youtube</button>
-            <button style="color: white;">My Works</button>
-            </div>
+    <div class="main-container">
+        <header>
+            <nav id="nav_bar">
+                <div>
+                    <h1>Vikas</h1>
+                </div>
+                <div class="nav-items">
+                    <a href="#home_section">Home</a>
+                    <a href="#about_section">About</a>
+                    <a href="#project_section">Projects</a>
+                    <a href="#contact_section">Contact</a>
+                    <a class="resumeB" href="resume.html">Resume</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <section>
+                <div class="main" id="home_section">
+                    <h2 style="color: rgb(252, 227, 7);">Hello!</h2>
+                    <div id="name">
+                        <h1>I'm &nbsp;&nbsp;</h1>
+                        <h1 style="color: rgb(252, 227, 7);">Vikas Choudhary</h1>
+                    </div>
+                    <p>Software Developer</p>
+                    <div>
+                        <button id="youtube">Youtube</button>
+                        <button id="mywork">My Works</button>
+                    </div>
+                    <div class="main_con">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="image">
+                    <img src="Images/vikas1.png" alt="">
+                </div>
+            </section>
         </div>
-    </section>
-    <section>
-        <div class="image" >
-            <img src="Images/vikas1.png" alt="">
-        </div>
-    </section>
+        <hr style="color: white; size: 10px; width: 1000px;"><br>
+        <section>
+            <div class="about" id="about_section">
+                <div class="info&skills">
+                    <div class="info">
+                        <div class="pimage">
+                            <img style="border-radius: 200px; height: 100px;width: 100px;" src="Images/1.jpg">
+                        </div>
+                        <div class="pinfo">
+                            <p>Name : Vikas Choudhary <br>
+                                Job Role : Software Developer<br>
+                                Exprience : NA (Fresher)<br>
+                                Adddress : Hydrabad
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <p>
+                        <ul>
+                            <li>Java</li>
+                            <li>C Language</li>
+                            <li>Oracle Database</li>
+                            <li>HTML & CSS</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>PowerPoint</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h1>About me</h1>
+                    <p>Responsible and motivated student ready to apply education in the workplace. Offers excellent
+                        technical abilities with software and applications, ability to handle challenging work, and
+                        excellent time management skills.</p>
+                    <div class="all_info">
+                        <h3>Profile:</h3>
+                        <p>Java Full Stack Developer</p>
+                    </div>
+                    <div class="all_info">
+                        <h3>Domain:</h3>
+                        <p>Software Development</p>
+                    </div>
+                    <div class="all_info">
+                        <h3>Education:</h3>
+                        <p>Master of Computer</p>
+                    </div>
+                    <div class="all_info">
+                        <h3>Language:</h3>
+                        <p>English, Hindi</p>
+                    </div>
+                    <div class="all_info">
+                        <h3>Other Skills:</h3>
+                        <p>Git, Github</p>
+                    </div>
+                    <div class="all_info">
+                        <h3>Interest: </h3>
+                        <p>Traveling</p>
+                    </div><br>
+                    <a href="https://www.linkedin.com/in/vikas-choudhary-896726207" id="all_info">LINKDIN</a>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="projects" id="project_section">
+                <h1>Projects</h1>
+                <p style="font-size:120%;">Belows are the sample Projects on Java, C, Oracle </p>
+                <div class="card">
+                    <div class="project_info" id="student">
+                        <h2>Student Enrollment System</h2>
+                        <img src="Images/student-enrollment.jpg">
+                        <p>Developed using C.
+                            In this project we can manage students information.Here we
+                            can perform operations like add new student data, student
+                            enquiry Id wise/name wise, view report, update and delete
+                            student record.</p>
+                    </div>
+                    <div class="project_info" id="Pharmecy">
+                        <h2>Pharmacy Store</h2>
+                        <img src="Images/pharmecy-store.jpg">
+                        <p>Developed using Java and Oracle.
+                            This project is like e-commerce where we can manage buying
+                            and selling related to pills and medicines, it has two partsAdmin/Seller- He has to register
+                            on the site, after that he can
+                            login and add, update, delete categories and products or
+                            view the order. Customers- Customers will also have to
+                            register first and then can order after login.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="contact" id="contact_section">
+                <h1>Contact Me</h1>
+                <p>Below are the details to reach out to me!</p><br><br>
+                <div class="contact_info">
+                    <div class="icons">
+                        <div class="i"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                        <div><b>ADDRESS</b></div>
+                        <div>
+                            <p>Indore,M.P.</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="i"><i class="fa-sharp fa-solid fa-phone"></i></div>
+                        <div><b>CONTECT NUMBER</b></div>
+                        <div>
+                            <p>+919826351882</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="i"><i class="fa-sharp fa-solid fa-paper-plane"></i></div>
+                        <div><b>EMAIL ADDRESS</b></div>
+                        <div>
+                            <p>vikaschoudhary2798@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="i"><i class="fa-solid fa-download"></i></i></div>
+                        <div><b>DOWNLOAD RESUME</b></div>
+                        <div>
+                            <p><a href="resume.html" style="text-decoration: none;color: rgb(252, 227, 7);">Click
+                                    Here</a></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="find_me">
+                    <p>Find me on</p>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
     </div>
-    <hr style="color: white; size: 10px; width: 1000px;"><br>
-    <section>
-        <div class="about" id="about_section">
-        <div class="info&skills">
-         <div class="info">
-           <div class="pimage">
-                <img style="border-radius: 200px; height: 100px;width: 100px;" src="Images/1.jpg">
-           </div>
-           <div class="pinfo">
-               <p>Name : Vikas Choudhary <br>
-                  Job Role : Software Developer<br>
-                 Exprience : NA (Fresher)<br>
-                 Adddress : Hydrabad
-                </p>
-                
-           </div>
-        </div>
-           <div class="skills">
-             <h2>Skills</h2>
-             <p>
-                <ul>
-                    <li>Java</li>
-                    <li>C Language</li>
-                    <li>Oracle Database</li>
-                    <li>HTML & CSS</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>PowerPoint</li>            </ul>
-             </p>
-           </div>
-        </div>
-         <div class="aboutme">
-         <h1>About me</h1>
-            <p>Responsible and motivated student ready to apply education in the workplace. Offers excellent technical abilities with software and applications, ability to handle challenging work, and excellent time management skills.</p>
-            <div class="all_info"><h3>Profile:</h3> <p>Java Full Stack Developer</p></div>
-                <div class="all_info"><h3>Domain:</h3><p>Software Development</p></div>
-            <div class="all_info"><h3>Education:</h3><p>Master of Computer</p></div>
-            <div class="all_info"><h3>Language:</h3><p>English, Hindi</p></div>
-            <div class="all_info"><h3>Other Skills:</h3><p>Git, Github</p></div>
-            <div class="all_info"><h3>Interest: </h3><p>Traveling</p></div>
-            <a href="https://www.linkedin.com/in/vikas-choudhary-896726207" id="all_info"><h3>LINKDIN</h3></a>
-          
-         </div>
-
-        </div>
-    </section>
-    <section>
-        <div class="projects" id="project_section">
-         <h1>Projects</h1>
-        <p style="font-size:120%;">Belows are the sample Projects on Java, C, Oracle </p>
-        <div class="card">
-            <div class="project_info" id="student">
-               <h2>Student Enrollment System</h2>
-               <img src="Images/student-enrollment.jpg">
-               <p>Developed using C.
-                In this project we can manage students information.Here we
-                can perform operations like add new student data, student
-                enquiry Id wise/name wise, view report, update and delete
-                student record.</p>
-            </div>
-            <div class="project_info" id="Pharmecy">
-                <h2>Pharmacy Store</h2>
-                <img src="Images/pharmecy-store.jpg">
-                <p>Developed using Java and Oracle.
-                    This project is like e-commerce where we can manage buying
-                    and selling related to pills and medicines, it has two partsAdmin/Seller- He has to register on the site, after that he can
-                    login and add, update, delete categories and products or
-                    view the order. Customers- Customers will also have to
-                    register first and then can order after login.</p>
-            </div>
-        </div>
-
-        </div>
-    </section>
-    <section>
-        <div class="contact" id="contact_section">
-        <h1>Contact Me</h1>
-        <p>Below are the details to reach out to me!</p><br><br>
-         <div class="contact_info">
-          <div class="icons">
-            <!-- <span class="icon-map-signs"></span> -->
-            <a href=""><img src="Images/m.jpg" alt=""></a>
-            <b>ADDRESS</b>
-            <p>Indore, M.P.</p>
-          </div>
-            <div class="icons">
-                <a href=""><img src="Images/m.jpg" alt=""></a>
-                <b>CONTECT NUMBER</b>
-                <p>+91-98263-51882</p>
-            </div>
-            <div class="icons">
-                <a href=""><img src="Images/m.jpg"></a>
-                <b>EMAIL ADDRESS</b>
-                <p>vikaschoudhary2798@gmail.com</p>
-            </div>
-            <div class="icons">
-                <a href=""><img src="Images/m.jpg"> </a>
-                <b>DOWNLOAD RESUME</b>
-                <p><a href="resume.html">Link</a></p>
-            </div>
-         </div>
-         <div class="find_me">
-            <p>Find me on </p>
-            <a href="#"><img src="Images/t.jpg" alt=""></a>
-            <a href="#"><img src="Images/t.jpg" alt=""></a>
-            <a href="#"><img src="Images/t.jpg" alt=""></a>
-            <a href="#"><img src="Images/t.jpg" alt=""></a>
-         </div>
-        </div>
-    </section>
-</div>
 </body>
+
 </html>

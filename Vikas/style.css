@@ -2,14 +2,13 @@ body{
     background-color: black;
     display: flex;
     justify-content: center;
-    margin-top: 2%;
 }
 .header{
     display: flex;
     height: 80px;
     width: 100px;
 }
-.nav-bar{
+.main-container{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -19,6 +18,7 @@ body{
     display: flex;
     justify-content: space-around;
     gap:50px;
+    margin-top: 8%;
 }
 .image{
     display: flex;
@@ -34,12 +34,17 @@ body{
     height: 400px;
     justify-content: center;
 }
+.main h2{
+    margin-top: 70px;
+}
 #nav_bar{
      display: flex;
      background-color: black;
-     padding: 1px;
+     padding: 0.5px;
      justify-content:space-between;
      align-items: center;
+     position: fixed;
+     width: 85%;
 }
 .nav-items{
      display: flex;
@@ -52,6 +57,9 @@ h1,p{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+}
+nav h1{
+    font-family: 'Brush Script MT','Brush Script Std',cursive;
 }
 nav a{
      padding: 5px;
@@ -70,13 +78,30 @@ nav a:hover{
     text-decoration: underline 1.5px;
     
 }
-button{
-    background-color: transparent;
+#youtube{
+    padding: 15px;
+    gap: 2em;
+    border: 1px solid;
+    border-radius: 30px ;
+    border-color:white;
+    background-color:rgb(252, 227, 7) ;
+}
+#mywork{
     padding: 15px;
     gap: 2em;
     border: 1px solid;
     border-radius: 30px ;
     border-color: white;
+    background-color: black;
+    color: white;
+}
+#youtube:hover{
+    background-color: black;
+    color: white;
+}
+#mywork:hover{
+    background-color: rgb(252, 227, 7) ;
+    color: black;
 }
 .pinfo p{
     font-size: 20px;
@@ -98,6 +123,7 @@ button{
 .about{
     display: flex;
     justify-content: space-around;
+    margin-top: 7%;
 }
 .aboutme h1{
     color: white;
@@ -118,7 +144,8 @@ button{
     display: flex;
     color: white;
     align-items: center;
-    gap: 8%;
+    line-height: 12%;
+    gap: 2%;
 }
 .all_info p{
     display: flex;
@@ -133,7 +160,7 @@ button{
 .skills ul{
     display: flex;
     flex-direction: column;
-    line-height: 200%;
+    line-height: 150%;
     font-size: 120%;
 }
 .resumeB{
@@ -145,15 +172,17 @@ button{
 .resumeB:hover{
     background-color: white;
     color: black;
+    text-decoration: none;
 }
 #all_info{
-    padding: 0%;
+    display: flex;
+    padding: 2px;
+    width: 80px;
+    justify-content: center;
     border: 1px solid;
-    border-radius: 50% ;
+    border-radius: 20% ;
     color: black;
     background-color: rgb(252, 227, 7);
-    border-color:transparent;
-    width: 30%;
     text-align: center;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -161,29 +190,33 @@ button{
 .projects{
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
     text-align: center;
+    margin-top: 6%;
+}
+.projects p{
+    margin-top:0.5%;
 }
 .card{
     display: flex;
     justify-content: space-between;
     color: white;
+    gap: 1%;
 }
 .card img{
         height: 50%;
-        width: 30%;
+        width: 40%;
 }
 .project_info p {
     font-size: 130%;
 }
 .contact p{
     font-size: 130%;
+    margin-top: 0.1%;
 }
-
 .contact{
     display: flex;
     flex-direction: column;
-    margin-top: 7%;
+    margin-top: 10%;
     align-items: center;
 }
 .contact_info b{
@@ -191,31 +224,74 @@ button{
 }
 .contact_info{
     display: flex;
-    gap:10%;
-    text-align: center;
-    justify-content: center;
-}
-.contact_info .icons{
-    display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
 }
 .find_me{
     display: flex;
+    gap: 10%;
+    justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    
+    margin-top: 5%;
 }
-.find_me a img{
-    height: 30%;
-    width: 20%;
-}
+
 .find_me a{
+    text-decoration: none;
+    padding: 10%;
+    background-color: rgb(15, 14, 14);
+    border-radius: 50%;
+    color: rgb(252, 227, 7);
+}
+.icons .i{
     display: flex;
-    gap:0px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(15, 14, 14);
+    border-radius: 50%;
+    color: rgb(252, 227, 7);
+    font-size: 25px;
+}
+.contact_info p{
+    font-size: 100%;
 }
 .icons{
-    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
-.icons p{
-    font-size: 100%;
+
+#student{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-color: rgb(252, 227, 7);
+}
+#Pharmecy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-color: rgb(252, 227, 7);
+}
+.main_con a{
+    text-decoration: none;
+    padding: 2%;
+    background-color: rgb(15, 14, 14);
+    border-radius: 50%;
+    color: rgb(252, 227, 7);
+}
+.main_con{
+    display: flex;
+    margin-top: 8%;
+    gap: 1%;
 }
