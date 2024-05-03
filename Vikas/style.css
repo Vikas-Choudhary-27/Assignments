@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     display: flex;
@@ -43,8 +46,8 @@ body{
      padding: 0.5px;
      justify-content:space-between;
      align-items: center;
-     position: fixed;
-     width: 85%;
+      position: fixed;
+      width: 85%; 
 }
 .nav-items{
      display: flex;
@@ -294,4 +297,11 @@ nav a:hover{
     display: flex;
     margin-top: 8%;
     gap: 1%;
+}
+
+#about_section{
+    padding-top: 85px;
+}
+#project_section{
+    padding-top: 65px;
 }
